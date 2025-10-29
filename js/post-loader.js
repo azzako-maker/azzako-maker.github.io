@@ -257,26 +257,37 @@ hello();
       return;
     }
     
-    // Giscus 스크립트 생성
+    // 기존 내용 초기화 후 Giscus 스크립트 생성
+    commentsElement.innerHTML = '';
+
     const script = document.createElement('script');
     script.src = 'https://giscus.app/client.js';
-    script.setAttribute('data-repo', 'your-username/your-username.github.io');
-    script.setAttribute('data-repo-id', 'YOUR_REPO_ID');
+    script.setAttribute('data-repo', 'azzako-maker/azzako-maker.github.io');
+    script.setAttribute('data-repo-id', 'R_kgDOQLHI2Q');
     script.setAttribute('data-category', 'General');
-    script.setAttribute('data-category-id', 'YOUR_CATEGORY_ID');
+    script.setAttribute('data-category-id', 'DIC_kwDOQLHI2c4CxMac');
     script.setAttribute('data-mapping', 'pathname');
     script.setAttribute('data-strict', '0');
     script.setAttribute('data-reactions-enabled', '1');
-    script.setAttribute('data-emit-metadata', '1');
+    script.setAttribute('data-emit-metadata', '0');
     script.setAttribute('data-input-position', 'bottom');
     script.setAttribute('data-theme', 'preferred_color_scheme');
     script.setAttribute('data-lang', 'ko');
     script.setAttribute('data-loading', 'lazy');
+    script.setAttribute('crossorigin', 'anonymous');
     script.async = true;
-    
+
+    script.addEventListener('load', () => {
+      console.log('Giscus 스크립트 로드 완료');
+    });
+
+    script.addEventListener('error', (event) => {
+      console.error('Giscus 스크립트 로드 실패', event);
+    });
+
     // 스크립트를 댓글 컨테이너에 추가
     commentsElement.appendChild(script);
-    
+
     console.log('Giscus 스크립트 추가됨');
   }
 

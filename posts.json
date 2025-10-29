@@ -16,5 +16,23 @@
     "category": "",
     "description": "",
     "excerpt": "---\r title: '첫 번째 게시글'\r date: 2025-01-26\r tags: \r category: 'Development'\r description: 'GitHub Pages 정적 블로그의 첫 번째 게시글입니다.'\r ---\r \r \r \r 안녕하세요! 이것은 GitHub Pages를 사용한 정적 블로그의 첫 번째 게시글입니다.\r \r \r \r 이 블로그는"
+  },
+  {
+    "file": "2025-10-29-latest-ai-news-trends.md",
+    "title": "2025-10-29-latest-ai-news-trends",
+    "date": "2025-10-29",
+    "tags": [],
+    "category": "",
+    "description": "",
+    "excerpt": "---\r title: '2025년 최신 AI 뉴스 트렌드 정리'\r date: 2025-10-29\r tags: \r category: 'Technology'\r description: '2025년 AI 뉴스와 산업 트렌드의 핵심 이슈를 정리했습니다.'\r ---\r \r \r \r 생성형 AI에서 물리적 AI까지, 2025년 AI 뉴스는 기술과 산업 전략이 동시에 진화하..."
+  },
+  {
+    "file": "2025-10-29-cursor-ide-october-2025-news.md",
+    "title": "2025-10-29-cursor-ide-october-2025-news",
+    "date": "2025-10-29",
+    "tags": [],
+    "category": "",
+    "description": "",
+    "excerpt": "---\r title: '2025년 10월 Cursor IDE 최신 소식 정리'\r date: 2025-10-29\r tags: \r category: 'Technology'\r description: '2025년 10월 Cursor IDE의 주요 업데이트와 새로운 기능들을 정리했습니다.'\r ---\r \r \r \r AI 코딩의 혁신을 이끌고 있는 Cursor IDE가"
   }
 ]
